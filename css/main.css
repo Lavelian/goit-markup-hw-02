@@ -31,7 +31,7 @@ body {
 }
 .header-link {
   color: #000000;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
 
   font-weight: 700;
   font-size: 26px;
@@ -140,9 +140,11 @@ body {
   color: #ffffff;
 }
 .footer > a {
+  font-family: 'Raleway', sans-serif;
+
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.92;
 }
 
 .footer-address > p {
@@ -169,6 +171,10 @@ body {
   background: var(--color-button-background);
   border-radius: 4px;
 }
+.button {
+  cursor: pointer;
+}
+
 .buttons .button:hover,
 .buttons .button:focus {
   color: var(--acent-color-button-text);
